@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/SLBotsofficial/28')
+                        InlineKeyboardButton('More Bots', url='https://t.me/CrowdXStrike')
                     ]
                 ]
                 await bot.send_cached_media(
@@ -103,11 +103,11 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Go Inline", switch_inline_query="")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about"),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/SLBotsofficial/28")
+                        InlineKeyboardButton("Chat", url="t.me/CrowdStrikeChat"),
+                        InlineKeyboardButton("Other Bots", url="https://t.me/CrowdXStrike/\\")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me to your group ➕",url="t.me/tgmoviedbbot?startgroup=true")
+                        InlineKeyboardButton("➕ Add Me to your group ➕",url="t.me/MovieSearchTGBot?startgroup=true")
                     ]
                 ]
             )
@@ -123,7 +123,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Switch to PM", url="t.me/tgmoviedbbot?start=true")
+                        InlineKeyboardButton("Switch to PM", url="t.me/MovieSearchTGBot?start=true")
                     ]
                 ]
             )
@@ -212,8 +212,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Bot Update Channel', url='https://t.me/SLBotsOfficial'),
-            InlineKeyboardButton('Movie Updates', url='https://t.me/nstcentertainmentgroup')
+            InlineKeyboardButton('Bot Update Channel', url='https://t.me/CrowdXStrike'),
+            InlineKeyboardButton('Movie Updates', url='https://t.me/DisneyCinemas')
         ]
     ]
-    await message.reply(text="<b>This is a clone of [TGMOVIEDB](https://t.me/tgmoviedbbot)\nDeveloper : <a href='https://t.me/TharukRenuja'>Tharuk Renuja</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nBot Update : <a href='https://t.me/SLBotsofficial'>SLBotsOfficial</a>\nMovie Updates : <a href='https://t.me/nstcentertainment'>NSTC Entertainment</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>This Bot Was Made By @DreamerNo1 With @CrowdXStrike\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nBot Update : <a href='https://t.me/CrowdXStrike'>CrowdXStrike</a>\nMovie Updates : <a href='https://t.me/DisneyCinemas'>Disney Cinemas</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
