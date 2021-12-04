@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Bot Updates', url='https://t.me/SLBotsOfficial'),
-                    InlineKeyboardButton('Movie Updates', url='https://t.me/nstcentertainment')
+                    InlineKeyboardButton('Bot Updates', url='https://t.me/CrowdXStrike'),
+                    InlineKeyboardButton('Movie Updates', url='https://t.me/DisneyCinemas')
                 ]
                 ]
-            await query.message.edit(text="<b>This is a clone of [TGMOVIEDB](https://t.me/tgmoviedbbot)\nA project By @SLBotsOfficial👑\n<b>Developer : <a href='https://t.me/TharukRenuja'>Tharuk Renuja</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/TharukRenuja/NSTC-Movie-Finder'>Click here</a>\nUpdate Channel : <a href='https://t.me/SLBotsOfficial'>SLBotsOfficial</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>This Bot Was Made By @DreamerNo1 With @CrowdXStrike\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nChat : <a href='https://t.me/CrowdStrikeChat'>Click here</a>\nUpdate Channel : <a href='https://t.me/CrowdXStrike'>CrowdXStrike</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Bot Updates', url='https://t.me/SLBotsOfficial'),
-                        InlineKeyboardButton('Movie Updates', url='https://t.me/nstcentertainment')
+                        InlineKeyboardButton('Bot Updates', url='https://t.me/CrowdXStrike'),
+                        InlineKeyboardButton('Movie Updates', url='https://t.me/DisneyCinemas')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Bot Updates', url='https://t.me/SLBotsOfficial'),
-                        InlineKeyboardButton('Movie Updates', url='https://t.me/nstcentertainment')
+                        InlineKeyboardButton('Bot Updates', url='https://t.me/CrowdXStrike'),
+                        InlineKeyboardButton('Movie Updates', url='https://t.me/DisneyCinemas')
                     ]
                     ]
                 
